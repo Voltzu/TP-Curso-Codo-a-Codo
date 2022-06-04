@@ -1,3 +1,21 @@
+#bg{
+	background-image:url('img/background.png');
+	width:auto;
+	height:auto;
+	animation-name:bg;
+	animation-timing-function:ease-in-out;
+	animation-iteration-count:infinite;
+	animation-duration:10s;
+	animation-direction:alternate;
+}
+
+@keyframes bg{
+	0%{background-image:url("img/background.png");}
+    25%{background-image:url("img/background_dt.png");}
+    50%{background-image:url("img/background_gs.png");}
+	75%{background-image:url("img/background_dt.png");}
+	100%{background-image:url("img/background.png");}
+}
 
 input[type=text], select, textarea, input[type=password]{
 	font-size:20px;
@@ -10,7 +28,7 @@ input[type=text], select, textarea, input[type=password]{
     box-sizing:border-box;
 }
 
-button[type=submit]{
+.sign-up{
 	font-size:20px;
     width:100%;
     background-color:#4CAF50;
@@ -23,7 +41,7 @@ button[type=submit]{
 	transition:0.5s;
 }
 
-button[type=submit]:hover{
+.sign-up:hover{
     background-color:#45a049;
 }
 
