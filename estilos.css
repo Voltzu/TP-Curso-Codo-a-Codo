@@ -1,3 +1,4 @@
+/* Anim bg */
 #bg{
 	background-image:url('img/background.png');
 	width:auto;
@@ -5,7 +6,7 @@
 	animation-name:bg;
 	animation-timing-function:ease-in-out;
 	animation-iteration-count:infinite;
-	animation-duration:10s;
+	animation-duration:15s;
 	animation-direction:alternate;
 }
 
@@ -13,7 +14,7 @@
 	0%{background-image:url("img/background.png");}
     25%{background-image:url("img/background_dt.png");}
     50%{background-image:url("img/background_gs.png");}
-	75%{background-image:url("img/background_dt.png");}
+	75%{background-image:url("img/background_nt.png");}
 	100%{background-image:url("img/background.png");}
 }
 
