@@ -17,21 +17,22 @@
 	</head>
 	<script type="text/javascript" src="js/connect.js"></script>
 	<body>
-		<div id="header">
-			<a href="index.html">
-			<img src="img/logo.png" width="auto" height="100px" style="padding:0px 17px">
-			</a>
-			<a href="index.html"><div class="logo">NotEnoughTime</div></a>	
-			<a href="catalogo.html" class="head_izq">Cat&aacute;logo</a>
-			<a href="index.html?opc=5" class="head_izq">Gen&eacute;ros</a>
-			<a href="index.html?opc=5" class="head_izq">Contacto</a>
-			<a href="login.html" class="head_izq">Iniciar Sesi&oacute;n</a>
-			</a>
-		</div>
+		<header>
+			<div id="header">
+				<a href="index.html">
+				<img src="img/logo.png" width="auto" height="100px" style="padding:0px 17px">
+				</a>
+				<a href="index.html"><div class="logo">NotEnoughTime</div></a>	
+				<a href="catalogo.html" class="head_izq">Cat&aacute;logo</a>
+				<!--- <a >href="index.html?opc=5" class="head_izq">Gen&eacute;ros</a>-->
+				<!---<a href="index.html?opc=5" class="head_izq">Contacto</a>-->
+				<a href="login.html" class="head_izq">Iniciar Sesi&oacute;n</a>
+			</div>
+		</header>
 		<div id="bg"><!-- El fondo cambia entre 4 variantes en 15s-->
 			<div id="principal">
 				<div id="central" style="text-align:center;">
-					<h1 style="font-size:2.5em">Not Enough Time</h1>
+					<img src="img/logo_banner.png" id="banner"/>
 					<h2>No hay tiempo para leer todo</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nulla quam, vestibulum quis orci eu, posuere consectetur nisi.
 					Etiam dolor ipsum, semper non lacus vitae, convallis sollicitudin risus. Curabitur volutpat urna pulvinar commodo luctus. 
@@ -41,39 +42,40 @@
 					Donec vitae sapien nibh. Praesent consectetur sapien leo, quis consectetur orci pharetra iaculis.
 					</p>
 					<h2>Manga Recomendado</h2>
-					<iframe id="ytplayer" type="text/html" width="640" height="360"
-					src="https://www.youtube.com/watch?v=7Ytc_glr8cc&ab_channel=OfficialATLUSWest"
-					frameborder="0"></iframe>	
+					<iframe id="videos" width="60%" height="360" src="https://www.youtube.com/embed/YisZUNW5WbM" frameborder="0" allowfullscreen=""></iframe>	
+					<p></p>
 				</div>
 			</div>
 		</div>
-		<div id="footer-container">
-			<div class="footer">
-				<ul>
-					<li>Redes Sociales</li>
-					<li>
-						<i class="fa-brands fa-facebook fa-2x"></i>
-						<i class="fa-brands fa-instagram fa-2x"></i>
-						<i class="fa-brands fa-discord fa-2x"></i>
-					</li>
-				</ul>
+		<footer>
+			<div id="footer-container">
+				<div class="footer">
+					<ul>
+						<li>Redes Sociales</li>
+						<li>
+							<i class="fa-brands fa-facebook fa-2x"></i>
+							<i class="fa-brands fa-instagram fa-2x"></i>
+							<i class="fa-brands fa-discord fa-2x"></i>
+						</li>
+					</ul>
+				</div>
+				<div class="footer">
+					<ul>
+						<li><h3>Categor&iacute;as</h3></li>
+						<li><a href="catalogo.html">Cat&aacute;logo</a></li>
+						<!--<li><a href="index.html?opc=5">Gen&eacute;ros</a></li>-->
+						<!--<li><a href="index.html?opc=5">Contacto</a></li>-->
+						<li><a href="login.html">Usuario</a></li>
+					</ul>
+				</div>
+				<div class="footer">
+					<ul>
+						<li>Maximiliano Hazama</li>
+						<li>Cursos Codo a Codo</li>
+						<li>2022</li>
+					</ul>
+				</div>
 			</div>
-			<div class="footer">
-				<ul>
-					<li><h3>Categor&iacute;as</h3></li>
-					<li><a href="index.html?opc=4">Cat&aacute;logo</a></li>
-					<li><a href="index.html?opc=5">Gen&eacute;ros</a></li>
-					<li><a href="index.html?opc=5">Contacto</a></li>
-					<li><a href="index.html?opc=2">Usuario</a></li>
-				</ul>
-			</div>
-			<div class="footer">
-				<ul>
-					<li>Maximiliano Hazama</li>
-					<li>Cursos Codo a Codo</li>
-					<li>2022</li>
-				</ul>
-			</div>
-		</div>
+		</footer>
 	</body>
 </html>
